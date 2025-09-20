@@ -1,0 +1,70 @@
+[INFO 15:31:41] Logging initialized for sample: R26-Nestin-Mut-adult
+[INFO 15:31:41] Log file: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/scATAC_pipeline_steps/logs/06b_R26-Nestin-Mut-adult_progress.log
+[INFO 15:31:41] Setting up conda environment...
+[INFO 15:31:46] Conda environment 'peak_calling_new' activated
+[INFO 15:31:46] Setting up temporary directory: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/temp/6019498_1
+[INFO 15:31:46] Using existing TMPDIR: /tmp
+[INFO 15:31:46] Temporary directory setup complete
+[INFO 15:31:46] Using matrix directory: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/filtered_peak_bc_matrix
+[INFO 15:31:46] Performing comprehensive output validation
+[INFO 15:31:46] All required output files present
+[INFO 15:31:46] Validating file integrity
+[INFO 15:31:46] Features file details: -rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 2781939 Sep  9 21:06 /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/filtered_peak_bc_matrix/features.tsv.gz
+[INFO 15:31:46] Features file type: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/filtered_peak_bc_matrix/features.tsv.gz: gzip compressed data, was "features.tsv", last modified: Tue Sep  9 19:06:14 2025, from Unix, original size modulo 2^32 13579078
+[INFO 15:31:46] Running gunzip -t integrity tests...
+[INFO 15:31:46] Features file passed gunzip -t integrity test
+[INFO 15:31:46] Barcodes file passed gunzip -t integrity test
+[INFO 15:31:53] Matrix file passed gunzip -t integrity test
+[INFO 15:31:53] All files passed integrity tests - skipping decompression test due to SLURM environment issues
+[INFO 15:31:53] File integrity validation passed
+[INFO 15:31:53] Validating dimension consistency
+[INFO 15:32:09] Dimension consistency validation passed
+[INFO 15:32:09] Matrix dimensions: 252072 features × 426456 barcodes
+[INFO 15:32:09] Non-zero entries: 111294861
+[INFO 15:32:09] Validating matrix content
+[INFO 15:32:09] Validating features format
+[INFO 15:32:11] Validating matrix entries format
+[INFO 15:32:11] Matrix content validation passed
+[INFO 15:32:11] Checking intermediate files
+[WARNING 15:32:11] Missing intermediate files: peaks_sorted.bed
+[WARNING 15:32:11] These files may have been cleaned up or the pipeline was run partially
+[INFO 15:32:11] Generating comprehensive statistics
+[INFO 15:32:19] Calculating matrix statistics (this may take a moment)
+[INFO 15:42:15] Analyzing count distribution
+[INFO 15:42:15] Comprehensive statistics saved to: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/final_pipeline_report.txt
+[INFO 15:42:15] === Final Pipeline Statistics ===
+[INFO 15:42:15] Features: 252072
+[INFO 15:42:15] Barcodes: 426456
+[INFO 15:42:15] Non-zero entries: 111294861
+[INFO 15:42:15] Total counts: 142379021
+[INFO 15:42:15] Matrix density: .103532%
+[INFO 15:42:15] Output size: 389.06 MB
+[INFO 15:42:15] Cleanup suggestions
+[INFO 15:42:15] Intermediate files use approximately 18068 MB of disk space
+[INFO 15:42:15] Consider removing them after confirming the final matrix is correct:
+[INFO 15:42:15]   rm "/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/intersect_output.txt"
+[INFO 15:42:15]   rm "/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/peak_barcode_counts.txt"
+[INFO 15:42:15] === PIPELINE COMPLETED SUCCESSFULLY ===
+[INFO 15:42:15] Final matrix location: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/filtered_peak_bc_matrix
+[INFO 15:42:15] Final report: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/final_pipeline_report.txt
+[INFO 15:42:15] Completed at: Thu Sep 11 03:42:15 PM CEST 2025
+[INFO 15:42:15] Cleaning up temporary directory: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/temp/6019482_1
+[INFO 15:43:48] Analyzing count distribution
+[INFO 15:43:48] Comprehensive statistics saved to: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/final_pipeline_report.txt
+[INFO 15:43:48] === Final Pipeline Statistics ===
+[INFO 15:43:48] Features: 252072
+[INFO 15:43:48] Barcodes: 426456
+[INFO 15:43:48] Non-zero entries: 111294861
+[INFO 15:43:48] Total counts: 142379021
+[INFO 15:43:48] Matrix density: .103532%
+[INFO 15:43:48] Output size: 389.06 MB
+[INFO 15:43:48] Cleanup suggestions
+[INFO 15:43:48] Intermediate files use approximately 18068 MB of disk space
+[INFO 15:43:48] Consider removing them after confirming the final matrix is correct:
+[INFO 15:43:48]   rm "/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/intersect_output.txt"
+[INFO 15:43:48]   rm "/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/peak_barcode_counts.txt"
+[INFO 15:43:48] === PIPELINE COMPLETED SUCCESSFULLY ===
+[INFO 15:43:49] Final matrix location: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/filtered_peak_bc_matrix
+[INFO 15:43:49] Final report: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/final_pipeline_report.txt
+[INFO 15:43:49] Completed at: Thu Sep 11 03:43:49 PM CEST 2025
+[INFO 15:43:49] Cleaning up temporary directory: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/temp/6019498_1

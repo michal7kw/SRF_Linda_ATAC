@@ -1,0 +1,24 @@
+[INFO 20:32:55] Logging initialized for sample: R26-Nestin-Mut-adult
+[INFO 20:32:55] Log file: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/scATAC_pipeline_steps/logs/06b_R26-Nestin-Mut-adult_progress.log
+[INFO 20:32:55] Setting up conda environment...
+[INFO 20:32:59] Conda environment 'peak_calling_new' activated
+[INFO 20:32:59] Setting up temporary directory: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/temp/5972461_1
+[INFO 20:32:59] Using existing TMPDIR: /beegfs/scratch/tmp
+[INFO 20:32:59] Temporary directory setup complete
+[INFO 20:32:59] Disk space check passed: 705290GB available in /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output
+[WARNING 20:33:00] Large input file detected (13 GB). Processing may take significant time.
+[INFO 20:33:00] Starting overlap processing
+[INFO 20:33:00] Input file: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/intersect_output.txt
+[INFO 20:33:00] Output file: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output/peak_barcode_counts.txt
+[INFO 20:33:00] Input file size: 14 GB
+[INFO 20:33:00] Estimated space needed: 42 GB
+[INFO 20:33:00] Disk space check passed: 705290GB available in /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Linda/ATAC_data/chromap_final_output
+[INFO 20:33:00] Using sort memory: 288G, threads: 8, available CPUs: 8
+[INFO 20:33:00] GNU parallel detected - will use for chunked processing
+[INFO 20:33:00] Created named pipes for processing
+[INFO 20:33:00] Using parallel chunked processing for large file
+[INFO 20:33:00] Starting parallel chunked processing
+[INFO 20:33:33] Processing 142379021 lines in chunks of 17797377 using 8 threads
+[INFO 20:33:33] Splitting input file into chunks
+[INFO 20:33:48] Processing chunks in parallel
+[INFO 20:36:39] Merging processed chunks

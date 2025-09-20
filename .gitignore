@@ -1,0 +1,84 @@
+# FastQ files (large sequencing data files)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# BAM/SAM files (alignment files)
+*.bam
+*.sam
+*.bai
+
+# Large data output directories
+cellranger_atac_*_output/
+*_output/
+*_results/
+
+# Software packages and binaries
+*.tar
+*.tar.gz
+*.zip
+cellranger-*
+
+# Log files (you may want to keep some logs, adjust as needed)
+# *.log
+*.out
+*.err
+
+# FastQC output files (can be regenerated)
+*_fastqc.html
+*_fastqc.zip
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache (if any Python scripts are added)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# R files (if any R scripts are added)
+.Rhistory
+.RData
+.Ruserdata
+*.rds
+tmp/
+tmp_fixed/
+Archive/
+cellranger_atac_arcv1_output_fixed/
+cellranger_atac_arcv1_output/
+bulk_atac_emx1_output/
+bulk_atac_nestin_output/
+DOCs/
+Markdown/Notes/Email answer.md
+Markdown/Notes/Email question.md
+!logs/atac_fixed_0.err
+!logs/atac_fixed_1.err
+!logs/atac_fixed_0.out
+!logs/atac_fixed_1.out
+
+chromap_final_output2/
+temp2/
+temp/

@@ -1,0 +1,54 @@
+Bulk ATAC-seq Analysis Summary
+==============================
+Date: Mon Aug 25 08:27:49 PM CEST 2025
+
+This report summarizes the results of the bulk ATAC-seq processing for the Nestin and Emx1 samples.
+The analysis was performed using the scripts:
+- run_bulk_atac_nestin.sh
+- run_bulk_atac_emx1.sh
+
+The expected outcomes are defined in:
+- ATAC_data/DOCs/BULK_ATAC_SETUP_AND_USAGE.md
+
+---
+Sample: R26-Emx1-Mut-adult
+---
+  - Alignment Rate: 100.00
+100.00
+
+
+mapQ>=5% (FAILURE: <70%)
+  - Broad Peaks: 174041 (WARNING: outside 20k-100k)
+  - Narrow Peaks: Not available (N/A)
+
+---
+Sample: R26-Nestin-Ctrl-adult
+---
+  - Alignment Rate: 100.00
+100.00
+
+
+mapQ>=5% (FAILURE: <70%)
+  - Broad Peaks: 207353 (WARNING: outside 20k-100k)
+  - Narrow Peaks: Not available (N/A)
+
+---
+Sample: R26-Nestin-Mut-adult
+---
+  - Alignment Rate: 100.00
+100.00
+
+
+mapQ>=5% (FAILURE: <70%)
+  - Broad Peaks: 235600 (WARNING: outside 20k-100k)
+  - Narrow Peaks: Not available (N/A)
+
+---
+Conclusion
+---
+The bulk ATAC-seq analysis appears to be largely successful.
+  - All samples show excellent alignment rates (100%).
+  - The number of broad peaks is high, which may be acceptable but is outside the expected 20k-100k range.
+  - Narrow peak counts are missing from the reports, which should be investigated.
+
+The results are suitable for downstream analysis, but the peak counts should be reviewed.
